@@ -1,0 +1,13 @@
+title: CEH-RDV Генератор
+href: index.yaml
+items:
+  - name: О проекте
+    href: about.md
+  - name: Инструкция по установке
+    href: install.md
+  - name: Первые шаги
+    href: firststeps.md
+  - name: API-документация
+    include:
+      path: api-reference/toc.yaml
+      mode: link
