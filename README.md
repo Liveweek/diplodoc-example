@@ -1,40 +1,11 @@
-# Documentation Template created by Diplodoc
+# Проект #2 по дисциплине "Документирование и управление версиями ПО"
 
-Features:
+## Описание проекта
 
-- initial project structure
-- dev server with hot reload
-- codespaces support
-- vscode tutorial via code tours
+В рамках проекта необходимо разработать онлайн документацию с генерацией на основе исходного
+кода документируемого проекта.
 
-## Initial project structure
+## Небходимые программные утилиты
 
-Initiatl project structure with basic content can be found within your public github repo "diplodoc-example/docs" 
-
-## Usage
-
-### Run locally by cloning repo:
-
-```
-> git clone git@github.com:diplodoc-platform/documentation-template.git
-
-> cd documentation-template
-
-> npm start
-
-> listening on 0.0.0.0:8000
-
-```
-now you have development server with hot reload runing and serving built documentation on `0.0.0.0:8000`
-
-### github codespaces
-
-press Use this template -> Open in a codespace
-
-![open in a codespace](images/open-in-a-codespace.jpeg)
-
-wait for the development server startup
-
-enjoy developing documentation with html result preview in split view
-
-![codespaces project](images/codespaces-project.jpeg)
+- `python3.10+` - для запуска скрипта генерации документации
+- `node` - для запуска непосредственно веб-сервера с документацией
